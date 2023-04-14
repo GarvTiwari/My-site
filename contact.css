@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+:root {
+    --main-bg-color: rgb(186, 78, 78);
+    --font-1: 'Roboto', sans-serif;
+    --font-2: 'Nunito', sans-serif;
+}
+.navigation {
+
+    font-family: var(--font-1);
+    height: 90px;
+    background-color:rgb(175, 215, 115); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+.nav-left span{
+    font-size: 35px;
+
+} 
+
+
+.nav-left ul {
+    display: flex;
+    font-size: 28px;
+}
+.nav-left ul li {
+    list-style: none;
+    margin-left: 80px;
+
+}
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.m-auto {
+    margin: auto;
+}
+.w1 {
+    max-width: 80vw;
+}
+/*
+.data{
+  height: 250px;
+    background-color: blueviolet;
+  
+}
+*/
+.data {
+    display: flex;
+    display: block;
+    height: 390px;
+    margin-top: 12px;
+    position: relative;
+    font-family: var(--font-1);
+    
+}
+.data::after{
+    content:"";
+    background-image: url("../image/background.jpg");
+    position: absolute;
+    top: 0;
+    width: 80vw;
+    height:inherit;
+    opacity: 0.12;
+    z-index: -1;
+}
+.btn {
+    padding: 4px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font-1);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: var(--main-bg-color);
+    transition: all 0.5s ease-in-out;
+ }
+ .put{
+    width: 25vw;
+ }
+
+.footer{
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 25px;
+}

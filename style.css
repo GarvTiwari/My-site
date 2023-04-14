@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+
+    font-family: var(--font-1);
+    height: 90px;
+    /*background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+.nav-left span{
+    font-size: 35px;
+} 
+
+.nav-left ul {
+    display: flex;
+    font-size: 28px;
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin-left: 80px;
+    font-family: var(--font-2);
+   
+
+
+}
+.nav-left ul li:hover {
+    background-color: var(--main-bg-color);
+   
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.nav-right {}
+
+
+.data {
+    display: flex;
+    height: 240px;
+    margin-top: 12px;
+    position: relative;
+    
+}
+.data::after{
+    content:"";
+    background-image: url("../image/background.jpg");
+    position: absolute;
+    width: 80vw;
+    height:inherit;
+    opacity: 0.12;
+}
+.data-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.data-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.data-right img {
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 105px;
+    margin-left: 244px;
+    margin-bottom: 15px;
+}
+.home-articles{
+    height: 900px;
+   /* background-color:plum; */
+    margin-top: 12px;
+    padding-top: 12px;
+
+}
+.home-article{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(223, 149, 149);
+    position: relative;
+    
+}
+.year-box{
+    position: absolute;
+}
+.home-article-cont{
+align-self: center;
+padding-left: 12px;
+}
+.home-article-cont a{
+    text-decoration: none;
+    color: black;
+}
+.home-article-left{
+
+}
+.home-article-right{
+
+}
+
+
+.footer {
+    height: 90px;
+    /*background-color:var(--main-bg-color);*/
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}

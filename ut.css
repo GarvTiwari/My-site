@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+:root {
+    --main-bg-color: rgb(221, 94, 77);
+    --font-1: 'Roboto', sans-serif;
+    --font-2: 'Nunito', sans-serif;
+}
+
+.w1 {
+    max-width: 80vw;
+}
+
+.w2 {
+    max-width: 60vw;
+}
+.font-1{
+    font-family: var(--font-1);
+}
+.font-2{
+    font-family: var(--font-2);
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.form-control {
+    padding: 3px 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 0px 12px;
+    font-family: var(--font-1);
+}
+
+.btn {
+    padding: 4px 12px;
+    border: 2px solid black;
+    border-radius: 11px;
+    font-family: var(--font-1);
+    cursor: pointer;
+}
+.btn:hover{
+   background-color: var(--main-bg-color);
+   transition: all 0.5s ease-in-out;
+}
