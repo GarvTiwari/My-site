@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+.Nav{
+    padding-left: 450px;
+    padding-right: 430px;
+    font-family: var(--font-1);
+
+
+}
+
+.nav-left span{
+    font-size: 25px;
+    display: flex;
+ 
+ 
+}
+.nav-left{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding-left:70px;
+}
+.nav-left ul{
+    display: flex;
+    list-style: none;
+    padding-right: 240px;
+    padding-top: 17px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+
+}
+.m-aut{
+    margin: 47px 246px;
+}
+.size{
+    font-size: 20px;
+  
+}
+.nav-left ul li{
+    padding-left: 172px;
+}
